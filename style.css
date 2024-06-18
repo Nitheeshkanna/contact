@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "Poppins", sans-serif;*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+::placeholder
+{
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.quote
+{
+	display: flex;
+	margin: 80px;
+/*	background-color: #eee;*/
+}
+.quote .q1
+{
+	width: 40%;
+}
+.quote .q1 h6
+{
+	font-size: 17px;
+	color: skyblue;
+}
+.quote .q1 h1
+{
+	margin-top: 20px;
+	font-size: 35px;
+}
+.quote .q1 p
+{
+	margin-top: 50px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.quote .contact
+{
+	display: flex;
+	margin-top: 40px;
+}
+.quote .contact .con1 i
+{
+	margin-top: 10px;
+	font-size: 40px;
+	color: white;
+	background-color: tomato;
+	padding: 10px;
+}
+.quote .contact .con2
+{
+	margin: 10px 0px 0px 15px;
+}
+.quote .contact .con2 #h6
+{
+	color: black;
+	font-size: 16px;
+}
+.quote .contact .con2 h3
+{
+	color: tomato;
+	font-size: 30px;
+}
+.quote .q2
+{
+	width: 60%;
+	background-color: #f5ebe0;
+}
+.quote .q2 .box
+{
+	margin-top: 50px;
+}
+.quote .q2 .box .input1 #name
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.quote .q2 .box .input1 #mail
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.quote .q2 .box .input2 #Mobile
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.quote .q2 .box .input2 .select1
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	color: rgba(0, 0, 0, 0.7);
+	margin: 10px;
+}
+.quote .q2 .box .text #special
+{
+	height: 55px;
+	width: 520px;
+	background-color: white;
+	border: 0px;
+	margin: 10px 0px 0px 0px;
+}
+.quote .q2 .box button
+{
+	height: 55px;
+	width: 520px;
+	background-color: tomato;
+	border: 0px;
+	margin-top: 10px;
+}
+
+@media (max-width:900px)
+{
+	.quote
+	{
+		flex-direction: column;
+	}
+	.quote .q1
+	{
+		width: 100%;
+	}
+	.quote .q2
+	{
+		margin-top: 20px;
+		width: 100%;
+	}
+}
+@media (max-width:600px)
+{
+	.quote .q1
+	{
+		margin-left: -25px;
+		width: 120%;
+	}
+	.quote .q2
+	{
+		margin-left: -25px;
+		margin-top: 20px;
+		width: 120%;
+	}
+	.quote .q2 .box .text #special
+	{
+		width: 250px;
+	}
+	.quote .q2 .box button
+	{
+		width: 200px;
+	}
+	.quote .contact .con2 h3
+	{
+		font-size: 25px;
+	}
+}

@@ -153,9 +153,26 @@
 		margin-top: 20px;
 		width: 120%;
 	}
+	.quote .q2 .box .input1 #name
+	{
+		width: 200px;
+	}
+	.quote .q2 .box .input1 #mail
+	{
+		width: 200px;
+	}
+	.quote .q2 .box .input2 #Mobile
+	{
+		width: 200px;
+	}
+	.quote .q2 .box .input2 .select1
+	{
+		
+		width: 200px;
+	}
 	.quote .q2 .box .text #special
 	{
-		width: 250px;
+		width: 200px;
 	}
 	.quote .q2 .box button
 	{
